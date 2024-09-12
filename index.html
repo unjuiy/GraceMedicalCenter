@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      as="style"
+      crossorigin
+      href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css"
+    />
+    <link rel="stylesheet" href="/styles/shared.css" />
+    <link rel="stylesheet" href="/styles/pg_main.css" />
+    <title>그레이스 메디컬 센터</title>
+  </head>
+  <body>
+    <header>
+      <a href="/">
+        <div id="logo-img"></div>
+      </a>
+      <nav>
+        <ul class="gnb">
+          <li>
+            <a href="#">병원소개</a>
+            <ul class="lnb">
+              <li>
+                <a href="#">병원철학</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">치료프로그램</a>
+            <ul class="lnb">
+              <li>
+                <a href="#">고주파온열치료</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">회복프로그램</a>
+            <ul class="lnb">
+              <li>
+                <a href="#">병원철학</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">케어프로그램</a>
+            <ul class="lnb">
+              <li>
+                <a href="#">병원철학</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">부대시설</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="pages">
+      <section class="first page">
+        <article id="pg1_left">
+          <h2>Recover Health, Regain Hope</h2>
+          <p>
+            그레이스 메디컬 센터와 함께 건강과 희망 모두 되찾으세요! <br />
+            당신의 생명을 지키는 고품격 암 치료 센터
+          </p>
+          <button type="button" onclick="location.href = '#'">진료예약</button>
+        </article>
+        <article id="pg1_right">
+          <div>이미지 슬라이드</div>
+        </article>
+      </section>
+      <section class="second page">
+        <article id="pg2">
+          <h2>ABOUT US</h2>
+          <p>
+            <strong>그레이스 메디컬 센터</strong>는<br />
+            최상의 의료 시스템과 다양한 회복 프로그램을 제공하는 암 전문
+            치료센터로,<br />
+            고급 1인 병실과 최신 편의시설을 갖춘 고품격 요양 병원으로,<br />
+            <strong>완치를 위한 최선의 노력을 다하겠습니다.</strong>
+          </p>
+          <div class="v-line"></div>
+          <button type="button" onclick="location.href = '#'">병원소개</button>
+        </article>
+      </section>
+      <section class="third page">
+        <article id="pg3">
+          <h2>Medical protocol</h2>
+          <p>진료부터 관리까지 모두 가능한 <strong>원스톱</strong> 시스템</p>
+          <div class="box-container">
+            <div class="image-box1" onclick="location.href = '/'">
+              치료 프로그램
+            </div>
+            <div class="image-box2" onclick="location.href = '/'">
+              회복 프로그램
+            </div>
+            <div class="image-box3" onclick="location.href = '/'">
+              케어 프로그램
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="fourth page">
+        <article id="pg4">
+          <h2>location</h2>
+          <div>네이버 지도</div>
+          <button type="button" onclick="location.href = '#'">
+            자세히 보기
+          </button>
+        </article>
+      </section>
+      <section class="fifth page">
+        <article id="pg5">
+          <h3>진료시간</h3>
+        </article>
+        <div id="footer"></div>
+      </section>
+    </main>
+    <ul class="pagination"></ul>
+    <script src="/scripts/pageScroll.js"></script>
+    <script src="/scripts/updateHeaderId.js"></script>
+  </body>
+</html>
